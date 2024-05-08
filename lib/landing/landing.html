@@ -3,23 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
     <script defer src="js/todolist.js"></script>
     <script defer src="js/expendablelist.js"></script>
     <script defer src="js/checked-todo-counts.js"></script>
+    <script defer src="../../components/h-divider.js"></script>
+    <script defer src="../../components/v-divider.js"></script>
     <title>Document</title>
 </head>
 <body>
     <header>
         <h3>Completed: 1</h3>
+        <h-divider></h-divider>
     </header>
     <main>
-        <todo-item checked>
-            todo 1
-            <span slot="description">text</span>
-        </todo-item>
-        <todo-item>todo 2</todo-item>
-        <todo-item>todo 3</todo-item>
-    
+        <div>
+            <todo-item checked>
+                todo 1
+                <span slot="description">text</span>
+            </todo-item>
+            <todo-item>todo 2</todo-item>
+            <todo-item>todo 3</todo-item>
+        </div>
+        <v-divider></v-divider>
         <ul is="expandable-list" data-expanded>
             <li>First</li>
             <li>Second</li>
