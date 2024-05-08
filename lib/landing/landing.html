@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="js/todolist.js"></script>
+    <script defer src="js/expendablelist.js"></script>
+    <script defer src="js/checked-todo-counts.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h3>Completed: 1</h3>
+    </header>
+    <main>
+        <todo-item checked>
+            todo 1
+            <span slot="description">text</span>
+        </todo-item>
+        <todo-item>todo 2</todo-item>
+        <todo-item>todo 3</todo-item>
+    
+        <ul is="expandable-list" data-expanded>
+            <li>First</li>
+            <li>Second</li>
+        </ul>
+    </main>
+</body>
+</html>
