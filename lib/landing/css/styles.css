@@ -4,6 +4,15 @@ html {
 
 html body {
     height: 100%;
+    padding: 0 0;
+    margin: 0 0;
+}
+
+body header .header-content {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 body main {
@@ -11,4 +20,15 @@ body main {
     width: 100%;
     display: flex;
     flex-direction: row;
+}
+
+.left,
+.right {
+    margin: 16px 0 0 0;
+}
+
+nav a {
+    margin: 0 0 16px 16px;
+    display: block;
+    font-size: 25px;
 }
