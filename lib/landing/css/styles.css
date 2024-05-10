@@ -1,0 +1,44 @@
+html {
+    height: 100%;
+}
+
+html body {
+    height: 100%;
+    padding: 0 0;
+    margin: 0 0;
+}
+
+body header .header-content {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body main {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.left,
+.right {
+    margin: 16px 0 0 0;
+}
+
+nav a {
+    margin: 0 0 16px 16px;
+    display: block;
+    font-size: 25px;
+}
+
+.right {
+    display: block;
+}
+
+#todoList {
+    margin: 16px 0 0 0;
+    padding: 0 0;
+}
