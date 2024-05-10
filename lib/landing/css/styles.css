@@ -32,3 +32,12 @@ nav a {
     display: block;
     font-size: 25px;
 }
+
+.right {
+    display: block;
+}
+
+#todoList {
+    margin: 16px 0 0 0;
+    padding: 0 0;
+}

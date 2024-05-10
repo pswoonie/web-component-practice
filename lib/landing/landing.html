@@ -3,10 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="stylesheet" href="css/styles.css">
-    <script defer src="js/todolist.js"></script>
+    <script defer src="js/index.js"></script>
+    <script defer src="js/todo-item.js"></script>
     <script defer src="js/expendablelist.js"></script>
     <script defer src="js/checked-todo-counts.js"></script>
+    <script defer src="js/add-todo.js"></script>
     <script defer src="../../components/h-divider.js"></script>
     <script defer src="../../components/v-divider.js"></script>
     <title>Document</title>
@@ -31,13 +34,9 @@
         <v-divider></v-divider>
         <!-------------------- right side ---------------------->
         <div class="right">
-            <todo-item>todo 1</todo-item>
-            <todo-item>todo 2</todo-item>
-            <todo-item>todo 3</todo-item>
-            <!-- <ul is="expandable-list" data-expanded>
-                <li>First</li>
-                <li>Second</li>
-            </ul> -->
+            <add-todo></add-todo>
+            <ul id="todoList">
+            </ul>
         </div>
     </main>
 </body>
