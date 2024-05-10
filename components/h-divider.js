@@ -12,7 +12,6 @@ class HDivider extends HTMLElement {
                 div {
                     height: 1px;
                     width: 100%;
-                    margin: 16px 0 0 0;
                     content: '';
                     background: black;
                 }
